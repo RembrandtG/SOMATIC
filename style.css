@@ -513,6 +513,12 @@ body {
   width: 50%;
 }
 
+.whatgift-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .whoshelp-section {
   display: flex;
   justify-content: start;
@@ -549,9 +555,15 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  align-items: start;
-  justify-content: center;
   width: 100%;
+}
+
+.nothing {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: none;
+  border: none;
 }
 
 .whatgift-section {
