@@ -270,7 +270,6 @@ body {
   justify-content: start;
   align-items: center;
   gap: 20px;
-  width: 50%;
 }
 
 .under-one {
@@ -305,23 +304,6 @@ body {
   opacity: 0.1;
 }
 
-.list__title {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  width: 50%;
-}
-
-.list-title {
-  font-family: 'Etude Noire', sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-size: clamp(16px, 3vw, 20px);
-  color: #ffffff;
-  text-align: left;
-}
-
 .list_cause {
   display: flex;
   justify-content: center;
@@ -329,13 +311,11 @@ body {
 }
 
 .cause-text {
-  color: #a17b5c;
   font-family: 'Etude Noire Bold', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
-  font-size: clamp(20px, 3vw, 30px);
-  line-height: 100%;
-  opacity: 0.6;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 500;
 }
 
 .somatic-list {
