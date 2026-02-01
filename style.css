@@ -718,11 +718,11 @@ body {
 @media (max-width: 450px) {
 
   .review-card {
-    width: 50%;
+    width: 90%;
   }
-  
+
   .scroll-block-text {
-    font-size: 6px;
+    font-size: 8px;
   }
 }
 
