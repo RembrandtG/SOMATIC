@@ -714,3 +714,15 @@ body {
     font-size: 8px;
   }
 }
+
+@media (max-width: 450px) {
+
+  .review-card {
+    width: 50%;
+  }
+  
+  .scroll-block-text {
+    font-size: 6px;
+  }
+}
+
