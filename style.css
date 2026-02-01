@@ -35,10 +35,18 @@ body {
   background-color: #a17b5c;
 }
 
+.nothing {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+}
+
 .main {
   position: relative;
   width: 100%;
-  height: 200vh;
+  height: 250vh;
   background-image: url('./image/trava.jpg');
   background-repeat: no-repeat;
   background-position: 50%;
@@ -118,7 +126,7 @@ body {
   position: relative;
   gap: 5px;
   z-index: 2;
-  margin-bottom: 60px;
+  padding-bottom: 20px;
 }
 
 .hero__socials {
@@ -226,22 +234,104 @@ body {
 
 .under-block {
   display: flex;
-  justify-content: end;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   position: relative;
-  z-index: 3;
+  z-index: 10;
 }
 
-.hero-h22 {
-  color: #a17b5c;
-  text-transform: uppercase;
-  font-family: 'Etude Noire Bold', sans-serif;
-  font-weight: 400;
+.under-section-one {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: start;
+  justify-content: center;
+}
+
+.under-sectionone-block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.under-section-two {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.body_remember {
+  font-family: 'Russo One', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
   font-style: normal;
-  font-size: 18px;
-  font-weight: 800;
-  letter-spacing: 8px;
+  font-size: 80px;
+  color: #a17b5c;
+  opacity: 0.7;
+}
+
+.list__title {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  width: 50%;
+}
+
+.list-title {
+  font-family: 'Etude Noire', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: clamp(16px, 3vw, 20px);
+  color: #ffffff;
+  text-align: left;
+}
+
+.somatic-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.list-text {
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.somatic-text {
+  font-family: 'Etude Noire', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: clamp(16px, 3vw, 20px);
+  color: #ffffff;
+  text-align: left;
+}
+
+.list-card {
+  height: auto;
+  background: rgba(255, 255, 255, 0.01);
+  backdrop-filter: blur(50px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  color: white;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 40px;
+  flex-shrink: 0;
+}
+
+.words-list {
+  color: #a17b5c;
+  font-family: 'Etude Noire Bold', sans-serif;
 }
 
 .content-wrapper {
@@ -302,7 +392,7 @@ body {
 }
 
 .content-p {
-  font-family: 'Etude Noire', sans-serif;
+  font-family: 'Etude Noire Light', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -609,7 +699,7 @@ body {
 
 .review-wrapper {
   position: relative;
-  background-color: rgb(80, 84, 69);
+  background-color: #505445;
   z-index: 4;
 }
 
@@ -655,6 +745,12 @@ body {
   z-index: 5;
 }
 
+.content-under__paragraph {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  z-index: 5;
+}
 /* horizont scroll */
 
 .h-scroll-viewport {
@@ -666,7 +762,8 @@ body {
 
 .h-scroll-section {
   width: 100%;
-  padding: 150px 0;
+  padding-top: 20px;
+  padding-bottom: 150px;
   overflow: hidden;
 }
 
