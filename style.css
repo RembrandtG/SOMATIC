@@ -628,7 +628,7 @@ body {
   flex-direction: column;
   gap: 10px;
   padding: 20px;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   border-radius: 40px;
   flex-shrink: 0;
