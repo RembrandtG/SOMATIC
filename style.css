@@ -10,6 +10,12 @@
   font-weight: normal;
 }
 
+@font-face {
+  font-family: 'Etude Noire Light';
+  src: url(./fonts/Etude\ Noire\ Light.ttf) format('truetype');
+  font-weight: normal;
+}
+
 .container {
   width: 100%;
   max-width: 1980px;
@@ -685,14 +691,19 @@ body {
 }
 
 .scroll-block-text {
-  font-family: 'Etude Noire', sans-serif;
+  font-family: Etude Noire Light, sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
-  font-size: clamp(12px, 2vw, 16px);
+  font-size: 16px;
 }
 
 /* MEDIA */
+@media (max-width: 1100px) {
+  .scroll-block-text {
+    font-size: 12px;
+  }
+}
 
 @media (max-width: 769px) {
   .scroll-block-title {
