@@ -74,8 +74,8 @@ body {
   right: 0;
   height: 40%;
   z-index: 1;
-  background: #505445;
-  background: linear-gradient(180deg, #50544500 60%, #505445 100%);
+  background: #2b2f26;
+  background: linear-gradient(180deg, #2b2f2600 60%, #2b2f26 100%);
   pointer-events: none;
 }
 
@@ -240,7 +240,7 @@ body {
 
 .under-block-wrapper {
   position: relative;
-  background-color: #505445;
+  background-color: #2b2f26;
   z-index: 4;
 }
 
@@ -263,6 +263,25 @@ body {
   justify-content: center;
 }
 
+.under-section-one-title {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.under-one {
+  color: #a17b5c;
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: 100%;
+}
+
 .under-sectionone-block {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -281,8 +300,9 @@ body {
   font-weight: 700;
   font-style: normal;
   font-size: 80px;
+  line-height: 170px;
   color: #ffffff;
-  opacity: 0.5;
+  opacity: 0.1;
 }
 
 .list__title {
@@ -300,6 +320,22 @@ body {
   font-size: clamp(16px, 3vw, 20px);
   color: #ffffff;
   text-align: left;
+}
+
+.list_cause {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cause-text {
+  color: #a17b5c;
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: 100%;
+  opacity: 0.6;
 }
 
 .somatic-list {
@@ -331,7 +367,7 @@ body {
 
 .list-card {
   height: auto;
-  background: rgba(255, 255, 255, 0.01);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(50px);
   border: 1px solid rgba(255, 255, 255, 0.2);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -349,7 +385,7 @@ body {
 
 .content-wrapper {
   position: relative;
-  background-color: rgb(43, 47, 38);
+  background-color: #505445;
   z-index: 4;
 }
 
@@ -502,8 +538,7 @@ body {
   pointer-events: none;
   z-index: 2;
   background:
-    linear-gradient(to bottom, rgba(43, 47, 38, 1) 0%, rgba(43, 47, 38, 0) 35%),
-    linear-gradient(to top, rgba(80, 84, 69, 1) 0%, rgba(80, 84, 69, 0.2) 35%);
+    linear-gradient(to bottom, rgb(80, 84, 69) 0%, rgba(80, 84, 69, 0) 35%);
 }
 
 .section_help-wrapper > * {
