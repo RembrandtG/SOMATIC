@@ -365,7 +365,7 @@ body {
 
 .content-wrapper {
   position: relative;
-  background-color: #505445;
+  background-color: #2b2f26;
   z-index: 4;
 }
 
@@ -501,15 +501,7 @@ body {
   padding-top: 100px;
 }
 
-.section_help-wrapper::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: inherit;
-  filter: blur(1px);
-  transform: scale(1.05);
-  z-index: 1;
-}
+
 
 .section_help-wrapper::after {
   content: '';
@@ -518,7 +510,7 @@ body {
   pointer-events: none;
   z-index: 2;
   background:
-    linear-gradient(to bottom, rgb(80, 84, 69) 0%, rgba(80, 84, 69, 0) 35%);
+    linear-gradient(to bottom, rgb(43, 47, 38), rgba(43, 47, 38, 0) 35%);
 }
 
 .section_help-wrapper > * {
