@@ -366,7 +366,10 @@ body {
 
 .whyslow-wrapper {
   position: relative;
-  background-color: #505445;
+  background-image: url(./image/trava.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   z-index: 5;
 }
 
