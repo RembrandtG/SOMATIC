@@ -31,7 +31,7 @@ body {
 
 .line {
   width: 80px;
-  height: 2px; 
+  height: 2px;
   background-color: #a17b5c;
 }
 
@@ -135,6 +135,7 @@ body {
   justify-content: start;
   align-items: start;
   gap: 20px;
+  opacity: 0.5;
 }
 
 .hero__social-item {
@@ -363,6 +364,94 @@ body {
   font-family: 'Etude Noire Bold', sans-serif;
 }
 
+.whyslow-wrapper {
+  position: relative;
+  background-color: #505445;
+  z-index: 5;
+}
+
+.whyslow {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: start;
+  justify-content: center;
+  padding: 100px 80px;
+}
+
+.zerotwo {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 140px;
+  line-height: 110px;
+  opacity: 0.2;
+}
+
+.whyslow-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.whislowly {
+  color: #a17b5c;
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: 100%;
+}
+
+.whyslowquest {
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 500;
+}
+
+.whyslow-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.whyslow-reason-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+
+.whyslow-card {
+  height: auto;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(50px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  color: white;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 40px;
+  flex-shrink: 0;
+}
+
+.whyslow-text {
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.words-slow {
+  color: #af794d;
+  font-family: 'Etude Noire Bold', sans-serif;
+}
+
 .content-wrapper {
   position: relative;
   background-color: #2b2f26;
@@ -501,16 +590,13 @@ body {
   padding-top: 100px;
 }
 
-
-
 .section_help-wrapper::after {
   content: '';
   position: absolute;
   inset: 0;
   pointer-events: none;
   z-index: 2;
-  background:
-    linear-gradient(to bottom, rgb(43, 47, 38), rgba(43, 47, 38, 0) 35%);
+  background: linear-gradient(to bottom, rgb(43, 47, 38), rgba(43, 47, 38, 0) 35%);
 }
 
 .section_help-wrapper > * {
@@ -615,7 +701,7 @@ body {
 .whatgift-text {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: start;
   justify-content: end;
   font-family: 'Etude Noire', sans-serif;
   font-optical-sizing: auto;
@@ -814,7 +900,9 @@ body {
 }
 
 .scroll-block-text {
-  font-family: Etude Noire Light, sans-serif;
+  font-family:
+    Etude Noire Light,
+    sans-serif;
   font-optical-sizing: auto;
   font-weight: 100;
   font-style: normal;
@@ -839,7 +927,6 @@ body {
 }
 
 @media (max-width: 450px) {
-
   .review-card {
     width: 90%;
   }
@@ -848,4 +935,3 @@ body {
     font-size: 8px;
   }
 }
-
