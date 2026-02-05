@@ -513,13 +513,12 @@ body {
 }
 
 .content-p {
-  font-family: 'Etude Noire', sans-serif;
+  font-family: 'Etude Noire Light', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(16px, 3vw, 20px);
+  font-size: clamp(14px, 2vw, 20px);
   color: #ffffff;
-  text-align: left;
 }
 
 .content__img {
@@ -563,22 +562,21 @@ body {
 }
 
 .sub-text {
-  font-family: 'Etude Noire', sans-serif;
+  font-family: 'Etude Noire Light', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  line-height: 25px;
-  color: #ffffff;
   font-size: clamp(14px, 2vw, 20px);
+  color: #ffffff;
 }
 
 .content-button {
   color: #a17b5c;
-  font-family: 'Etude Noire', sans-serif;
-  font-weight: 400;
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
   font-style: normal;
-  font-size: 18px;
-  line-height: 100%;
+  font-size: clamp(14px, 2vw, 20px);
 }
 
 .section_help-wrapper {
@@ -650,11 +648,11 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: start;
-  font-family: 'Etude Noire', sans-serif;
+  font-family: 'Etude Noire Light', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(16px, 3vw, 20px);
+  font-size: clamp(14px, 2vw, 20px);
   color: #ffffff;
   text-align: left;
   gap: 10px;
@@ -706,11 +704,11 @@ body {
   flex-direction: column;
   align-items: start;
   justify-content: end;
-  font-family: 'Etude Noire', sans-serif;
+  font-family: 'Etude Noire Light', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(16px, 3vw, 20px);
+  font-size: clamp(14px, 2vw, 20px);
   color: #ffffff;
   width: 50%;
   gap: 10px;
