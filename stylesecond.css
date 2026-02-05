@@ -225,20 +225,20 @@
 }
 
 .cash {
-  font-family: 'Etude Noire', sans-serif;
+  font-family: 'Etude Noire Light', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(14px, 2vw, 20px);
+  font-size: 16px;
   color: #ffffff;
 }
 
 .cash1 {
-  font-family: 'Etude Noire', sans-serif;
+  font-family: 'Etude Noire Light', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: clamp(14px, 2vw, 20px);
+  font-size: 16px;
   color: #ffffff;
 }
 
