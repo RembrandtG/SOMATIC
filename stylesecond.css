@@ -184,7 +184,7 @@
 .h-scroll-review {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
   padding: 100px 0 50px 0;
 }
 
@@ -213,6 +213,33 @@
   align-items: center;
   border-radius: 40px;
   flex-shrink: 0;
+}
+
+.finish {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+}
+
+.cash {
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.cash1 {
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 .site-footer {
