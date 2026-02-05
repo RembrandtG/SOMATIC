@@ -442,11 +442,11 @@ body {
 }
 
 .whyslow-text {
-  font-family: 'Etude Noire Light', sans-serif;
+  font-family: 'Etude Noire', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-  font-size: 16px;
+  font-size: clamp(14px, 2vw, 20px);
   color: #ffffff;
 }
 
@@ -513,7 +513,7 @@ body {
 }
 
 .content-p {
-  font-family: 'Etude Noire Light', sans-serif;
+  font-family: 'Etude Noire', sans-serif;
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -569,7 +569,7 @@ body {
   font-style: normal;
   line-height: 25px;
   color: #ffffff;
-  font-size: clamp(14px, 2vw, 18px);
+  font-size: clamp(14px, 2vw, 20px);
 }
 
 .content-button {
