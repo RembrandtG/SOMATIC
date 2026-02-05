@@ -1,3 +1,31 @@
+.aboutmaster-wrapper {
+  position: relative;
+  z-index: 0;
+  background-color: #2b2f26;
+  overflow: hidden;
+  min-height: 100vh;
+}
+
+.aboutmaster-wrapper::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 2;
+  background:
+    linear-gradient(to bottom, rgba(80, 84, 69, 1) 0%, rgba(80, 84, 69, 0) 20%),
+    linear-gradient(to top, rgba(80, 84, 69, 1) 0%, rgba(80, 84, 69, 0) 20%);
+}
+
+.zeroone2 {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 170px;
+  line-height: 150px;
+  opacity: 0.1;
+}
+
 .aboutmaster {
   display: flex;
   justify-content: center;
@@ -72,7 +100,21 @@
   justify-content: center;
   align-items: start;
   padding: 50px 80px;
-  gap: 20px;
+  gap: 50px;
+}
+
+.zeroone3 {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 170px;
+  line-height: 170px;
+  opacity: 0.1;
+}
+
+.pricelist-subtitle {
+  display: flex;
+  width: 100%;
 }
 
 .pricelist-title {
