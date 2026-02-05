@@ -1,0 +1,344 @@
+.aboutmaster {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.image-box {
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+.master-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.aboutmaster-info {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+  width: 50%;
+}
+
+.aboutmaster--title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.aboutmaster-page {
+  color: #a17b5c;
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: 100%;
+}
+
+.aboutmaster-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 40px;
+}
+
+.masterelena {
+  font-family: 'Etude Noire', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: clamp(14px, 2vw, 20px);
+  color: #ffffff;
+}
+
+.pricelist-wrapper {
+  position: relative;
+  background-color: #505445;
+  z-index: 4;
+}
+
+.pricelist {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  padding: 50px 80px;
+  gap: 20px;
+}
+
+.pricelist-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.pricelist-page {
+  color: #a17b5c;
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: clamp(20px, 3vw, 30px);
+  line-height: 100%;
+}
+
+.pricelist-underpage {
+  color: #a17b5c;
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
+}
+
+.pricelist-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  width: 50%;
+}
+
+.pricelist-info {
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: clamp(24px, 3vw, 32px);
+  font-weight: 500;
+}
+
+.pricelist-paragraph {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+}
+
+.pricelist-p {
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.review-wrapper {
+  position: relative;
+  background-color: #505445;
+  z-index: 4;
+}
+
+.h-scroll-review {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 100px 0 50px 0;
+}
+
+.zeroone1 {
+  font-family: 'Russo One', sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 150px;
+  line-height: 150px;
+  opacity: 0.1;
+}
+
+.review-card {
+  width: 35%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  justify-content: start;
+  align-items: center;
+  border-radius: 40px;
+  flex-shrink: 0;
+}
+
+.site-footer {
+  background: #2b2f26;
+  font-family: 'Inter', sans-serif;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  padding: 30px 80px;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-brand h3 {
+  font-size: 20px;
+  font-family: 'Etude Noire', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.footer-brand p {
+  font-family: 'Etude Noire', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #af794d;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.footer-info p {
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.footer-info a {
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  color: #af794d;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.footer-info a:hover {
+  border-bottom-color: #fff;
+}
+
+.footer-copy {
+  font-family: 'Etude Noire Light', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: right;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+
+
+/* word-color */
+
+.words {
+  color: #a17b5c;
+}
+
+/* absolute text */
+
+.content__paragraph {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+
+.content-under__paragraph {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 5;
+}
+/* horizont scroll */
+
+.h-scroll-viewport {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background-size: 100%;
+}
+
+.h-scroll-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+.h-scroll-track {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.h-scroll-track::-webkit-scrollbar {
+  display: none;
+}
+
+.scroll-block-title {
+  color: #a17b5c;
+  font-family: 'Etude Noire', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: clamp(16px, 2vw, 24px);
+}
+
+.scroll-block-text {
+  font-family:
+    Etude Noire Light,
+    sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 16px;
+}
+
+/* MEDIA */
+@media (max-width: 600px) {
+  .footer-copy {
+    text-align: left;
+  }
+}
+
+@media (max-width: 1100px) {
+  .scroll-block-text {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 769px) {
+  .scroll-block-title {
+    font-size: 16px;
+  }
+
+  .scroll-block-text {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  .review-card {
+    width: 90%;
+  }
+
+  .scroll-block-text {
+    font-size: 8px;
+  }
+}
