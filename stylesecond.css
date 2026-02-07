@@ -436,6 +436,10 @@
   .pricelist {
     gap: 30px;
   }
+
+  .content__info {
+    gap: 10px;
+  }
 }
 
 @media (max-width: 769px) {
@@ -519,6 +523,7 @@
 
   .content {
     padding-top: 70px;
+    padding-bottom: 10px;
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -725,5 +730,138 @@
 
   .header {
     margin-bottom: 20px;
+  }
+
+  .hero__social-item {
+    font-size: 14px;
+  }
+
+  .scroll-somatics {
+    width: 80%;
+  }
+
+  .body_remember {
+    font-size: 40px;
+    line-height: 70px;
+    opacity: 0.3;
+  }
+
+  .under-block {
+    padding-top: 50px;
+    gap: 20px;
+  }
+
+  .under-section-one {
+    gap: 20px;
+  }
+
+  .under-sectionone-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .under-section-two {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .somatic-list {
+    grid-template-columns: 1fr 2fr;
+  }
+
+  .somatic-text {
+    font-size: 10px;
+  }
+
+  .zerotwo {
+    font-size: 40px;
+    line-height: 70px;
+    opacity: 0.4;
+  }
+
+  .whyslow-reason-block {
+    width: 100%;
+  }
+
+  .content__img {
+    width: 70%;
+    gap: 10px;
+  }
+
+  .somatic-img {
+    width: 68%;
+    border-radius: 40px;
+  }
+
+  .content_sub-info {
+    padding: 0 10px;
+  }
+
+  .whoshelp-icon {
+    display: none;
+  }
+
+  .whatgift {
+    flex-direction: column-reverse;
+  }
+
+  .whoshelp-block {
+    width: 100%;
+  }
+
+  .whatgift-text {
+    width: 100%;
+  }
+
+  .whatgift-icon {
+    justify-content: center;
+    width: 70%;
+  }
+
+  .aboutmaster {
+    flex-direction: column;
+    padding-top: 60px;
+  }
+
+  .aboutmaster-info {
+    width: 100%;
+  }
+
+  .image-box {
+    width: 90%;
+  }
+
+  .zeroone2 {
+    font-size: 70px;
+  }
+
+  .zeroone1 {
+    font-size: 70px;
+  }
+
+  .cash {
+    font-size: 7px;
+  }
+
+  .cash1 {
+    font-size: 7px;
+  }
+
+  .footer-brand h3 {
+    font-size: 10px;
+  }
+
+  .footer-brand p {
+    font-size: 9px;
+  }
+
+  .footer-info p {
+    font-size: 8px;
+  }
+
+  .footer-copy {
+    font-size: 8px;
   }
 }
