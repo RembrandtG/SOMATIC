@@ -587,6 +587,11 @@
 
   .whatgift-text {
     width: 80%;
+    font-size: 14px;
+  }
+
+  .whoshelp-text {
+    font-size: 14px;
   }
 
   .helpgift {
@@ -842,11 +847,11 @@
   }
 
   .cash {
-    font-size: 7px;
+    font-size: 10px;
   }
 
   .cash1 {
-    font-size: 7px;
+    font-size: 10px;
   }
 
   .footer-brand h3 {
@@ -863,5 +868,36 @@
 
   .footer-copy {
     font-size: 8px;
+  }
+}
+
+@media (max-width: 380px) {
+  .zeroone {
+    font-size: 70px;
+  }
+
+  .body_remember {
+    font-size: 35px;
+  }
+
+  .copirate-title {
+    font-size: 8px;
+  }
+
+  .copirate-text {
+    font-size: 8px;
+  }
+
+  .pricelist-info {
+    font-size: 16px;
+  }
+
+  .hero-h1 {
+    font-size: 22px;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: space-between;
   }
 }
