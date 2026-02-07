@@ -1,20 +1,9 @@
 .aboutmaster-wrapper {
   position: relative;
-  z-index: 0;
+  z-index: 5;
   background-color: #2b2f26;
   overflow: hidden;
   min-height: 100vh;
-}
-
-.aboutmaster-wrapper::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-  z-index: 2;
-  background:
-    linear-gradient(to bottom, rgba(80, 84, 69, 1) 0%, rgba(80, 84, 69, 0) 20%),
-    linear-gradient(to top, rgba(80, 84, 69, 1) 0%, rgba(80, 84, 69, 0) 20%);
 }
 
 .zeroone2 {
@@ -117,9 +106,25 @@
   width: 100%;
 }
 
+.pricelist-title-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+}
+
+.nothing {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border: none;
+}
+
 .pricelist-title {
   display: flex;
-  justify-content: start;
+  justify-content: end;
   align-items: center;
   gap: 20px;
 }
@@ -140,14 +145,6 @@
   font-style: normal;
   font-size: 20px;
   line-height: 100%;
-}
-
-.pricelist-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 20px;
-  width: 50%;
 }
 
 .pricelist-info {
@@ -203,7 +200,6 @@
   background: rgba(255, 255, 255, 0.08);
   backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
   color: white;
   display: flex;
   flex-direction: column;
@@ -221,7 +217,6 @@
   justify-content: space-between;
   align-items: center;
   gap: 5px;
-
 }
 
 .cash {
@@ -313,8 +308,6 @@
   opacity: 0.9;
 }
 
-
-
 /* word-color */
 
 .words {
@@ -390,15 +383,320 @@
   .scroll-block-text {
     font-size: 12px;
   }
-}
 
-@media (max-width: 769px) {
-  .scroll-block-title {
+  .content-info {
+    font-size: 18px;
+  }
+
+  .content-p {
+    font-size: 14px;
+  }
+
+  .sub-text {
+    font-size: 14px;
+  }
+
+  .content-sub-box {
+    width: 35%;
+    gap: 10px;
+  }
+
+  .content__img {
+    width: 60%;
+  }
+
+  .masterelena {
     font-size: 16px;
   }
 
+  .whoshelp-text {
+    font-size: 16px;
+  }
+
+  .whatgift-text {
+    font-size: 16px;
+  }
+
+  .whoshelp-img {
+    width: 50%;
+  }
+
+  .zerotwo {
+    font-size: 90px;
+  }
+
+  .aboutmaster-text {
+    gap: 20px;
+  }
+
+  .pricelist-info {
+    font-size: 20px;
+  }
+
+  .pricelist {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 769px) {
+  .container {
+    padding: 20px 10px;
+  }
+
+  .copirate-title {
+    font-size: 11px;
+  }
+
+  .copirate-text {
+    font-size: 11px;
+  }
+
+  .scroll-block-title {
+    font-size: 14px;
+    color: #e8a874;
+  }
+
   .scroll-block-text {
-    font-size: 8px;
+    font-size: 10px;
+  }
+
+  .body_remember {
+    font-size: 50px;
+  }
+
+  .under-one {
+    font-size: 16px;
+    color: #e8a874;
+  }
+
+  .words-list {
+    font-family: 'Etude Noire Light';
+    color: #e8a874;
+  }
+
+  .words {
+    color: #e8a874;
+  }
+
+  .cause-text {
+    font-size: 20px;
+  }
+
+  .list-text {
+    font-size: 13px;
+  }
+
+  .zerotwo {
+    font-size: 70px;
+    line-height: 60px;
+  }
+
+  .whyslowquest {
+    font-size: 20px;
+  }
+
+  .whislowly {
+    font-size: 20px;
+    color: #e8a874;
+  }
+
+  .whyslow {
+    padding-top: 50px;
+    gap: 20px;
+  }
+
+  .whyslow-reason-block {
+    width: 70%;
+  }
+
+  .whyslow-text {
+    font-size: 14px;
+  }
+
+  .words {
+    color: #e8a874;
+  }
+
+  .content {
+    padding-top: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .content__info {
+    width: 100%;
+  }
+
+  .content-title {
+    font-size: 20px;
+    color: #e8a874;
+  }
+
+  .sub-title {
+    font-size: 20px;
+    color: #e8a874;
+  }
+
+  .zeroone {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .content_sub-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .somatic-img {
+    width: 60%;
+  }
+
+  .content-sub-box {
+    width: 100%;
+  }
+
+  .content-button {
+    color: #e8a874;
+  }
+
+  .hero-h2 {
+    color: #e8a874;
+  }
+
+  .hero-button {
+    color: #e8a874;
+  }
+
+  .whoshelp-block {
+    width: 80%;
+  }
+
+  .whatgift-icon {
+    width: 50%;
+  }
+
+  .whoshelp-icon {
+    width: 50%;
+  }
+
+  .whatgift-text {
+    width: 80%;
+  }
+
+  .helpgift {
+    gap: 10px;
+  }
+
+  .section_help-wrapper {
+    padding: 50px 10px;
+  }
+
+  .whoshelp-title {
+    font-size: 20px;
+    color: #e8a874;
+  }
+
+  .whatgift-quest {
+    font-size: 20px;
+    color: #e8a874;
+  }
+
+  .whatgift-upper {
+    padding: 0;
+  }
+
+  .zeroone2 {
+    font-size: 90px;
+    line-height: 90px;
+  }
+
+  .aboutmaster {
+    gap: 5px;
+    padding-top: 50px;
+  }
+
+  .aboutmaster-page {
+    font-size: 20px;
+    color: #e8a874;
+  }
+
+  .masterelena {
+    font-size: 14px;
+  }
+
+  .aboutmaster-wrapper {
+    min-height: auto;
+  }
+
+  .aboutmaster-info {
+    gap: 20px;
+  }
+
+  .zeroone3 {
+    font-size: 70px;
+    line-height: 70px;
+  }
+
+  .pricelist {
+    gap: 20px;
+    padding-top: 50px;
+  }
+
+  .pricelist-page {
+    font-size: 20px;
+    color: #e8a874;
+  }
+
+  .pricelist-info {
+    font-size: 18px;
+  }
+
+  .pricelist-underpage {
+    color: #e8a874;
+  }
+
+  .pricelist-p {
+    font-size: 14px;
+  }
+
+  .zeroone1 {
+    font-size: 90px;
+    line-height: 70px;
+  }
+
+  .h-scroll-review {
+    padding-top: 50px;
+    gap: 20px;
+  }
+
+  .review-card {
+    width: 45%;
+    height: auto;
+  }
+
+  .cash {
+    font-size: 14px;
+  }
+
+  .cash1 {
+    font-size: 14px;
+  }
+
+  .footer-brand h3 {
+    font-size: 14px;
+  }
+
+  .footer-brand p {
+    font-size: 12px;
+  }
+
+  .footer-info p {
+    font-size: 10px;
+  }
+
+  .footer-copy {
+    font-size: 10px;
   }
 }
 
