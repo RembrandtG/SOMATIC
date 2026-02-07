@@ -708,4 +708,22 @@
   .scroll-block-text {
     font-size: 8px;
   }
+
+  .hero-h1 {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .hero-text {
+    font-size: 14px;
+    opacity: 0.8;
+  }
+
+  .hero-button {
+    font-size: 12px;
+  }
+
+  .header {
+    margin-bottom: 20px;
+  }
 }
