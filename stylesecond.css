@@ -216,7 +216,23 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+}
+
+.finish-price {
+  display: flex;
+  flex-direction: column;
   gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.finish-clothe {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
 }
 
 .value-title {
@@ -395,6 +411,25 @@
   }
 }
 
+@media (max-width: 1441px) {
+  .whislowly {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .krasnodar-underpage {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .krasnodar-underpage {
+    font-size: 25px;
+  }
+}
+
+
 @media (max-width: 1100px) {
   .scroll-block-text {
     font-size: 12px;
@@ -495,6 +530,10 @@
   .words-list {
     font-family: 'Etude Noire Light';
     color: #e8a874;
+  }
+
+  .krasnodar-title {
+    padding: 40px 10px 60px 10px;
   }
 
   .words {
@@ -751,6 +790,22 @@
   .review-card {
     width: 70%;
   }
+
+  .finish-price {
+    align-items: start;
+  }
+
+  .finish-clothe {
+    align-items: center;
+  }
+
+  .cash {
+    font-size: 12px;
+  }
+  
+  .cash1 {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 450px) {
@@ -786,6 +841,10 @@
 
   .scroll-somatics {
     width: 80%;
+  }
+
+  .krasnodar-underpage {
+    font-size: 16px;
   }
 
   .body_remember {
@@ -978,5 +1037,9 @@
 
   .value-underpage {
     font-size: 16px;
+  }
+
+  .zeroone2 {
+    font-size: 40px;
   }
 }
