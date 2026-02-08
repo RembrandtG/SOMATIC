@@ -97,7 +97,7 @@
   font-weight: 700;
   font-style: normal;
   font-size: 170px;
-  line-height: 100px;
+  line-height: 140px;
   opacity: 0.1;
 }
 
@@ -181,7 +181,7 @@
 .h-scroll-review {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 30px;
   padding: 100px 0 50px 0;
 }
 
@@ -217,6 +217,22 @@
   justify-content: space-between;
   align-items: center;
   gap: 5px;
+}
+
+.value-title {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+.value-underpage {
+  color: #a17b5c;
+  font-family: 'Etude Noire Bold', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 100%;
 }
 
 .cash {
@@ -457,11 +473,14 @@
 
   .scroll-block-title {
     font-size: 14px;
-    color: #e8a874;
   }
 
   .scroll-block-text {
     font-size: 10px;
+  }
+
+  .hero__social-item {
+    color: #e8a874;
   }
 
   .body_remember {
@@ -617,8 +636,8 @@
   }
 
   .zeroone2 {
-    font-size: 90px;
-    line-height: 90px;
+    font-size: 70px;
+    line-height: 70px;
   }
 
   .aboutmaster {
@@ -685,6 +704,18 @@
     height: auto;
   }
 
+  .value-title {
+    padding-bottom: 0;
+  }
+
+  .value-underpage {
+    color: #e8a874;
+  }
+
+  .finish {
+    padding-top: 0;
+  }
+
   .cash {
     font-size: 14px;
   }
@@ -707,6 +738,18 @@
 
   .footer-copy {
     font-size: 10px;
+  }
+}
+
+@media (max-width: 746px) {
+  .finish {
+    align-items: start;
+  }
+}
+
+@media (max-width: 700px) {
+  .review-card {
+    width: 70%;
   }
 }
 
@@ -781,7 +824,7 @@
   }
 
   .zerotwo {
-    font-size: 40px;
+    font-size: 35px;
     line-height: 70px;
     opacity: 0.4;
   }
@@ -839,11 +882,11 @@
   }
 
   .zeroone2 {
-    font-size: 70px;
+    font-size: 50px;
   }
 
   .zeroone1 {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .cash {
@@ -877,7 +920,7 @@
   }
 
   .body_remember {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .copirate-title {
@@ -899,5 +942,41 @@
   .hero {
     display: flex;
     justify-content: space-between;
+  }
+
+  .sub-title {
+    font-size: 16px;
+  }
+
+  .whoshelp-title {
+    font-size: 16px;
+  }
+
+  .whatgift-quest {
+    font-size: 16px;
+  }
+
+  .content-title {
+    font-size: 16px;
+  }
+
+  .whislowly {
+    font-size: 16px;
+  }
+
+  .aboutmaster-page {
+    font-size: 16px;
+  }
+
+  .pricelist-page {
+    font-size: 16px;
+  }
+
+  .pricelist-underpage {
+    font-size: 16px;
+  }
+
+  .value-underpage {
+    font-size: 16px;
   }
 }
