@@ -217,6 +217,7 @@
   justify-content: space-between;
   align-items: center;
   gap: 20px;
+  width: 100%;
 }
 
 .finish-price {
@@ -802,7 +803,7 @@
   .cash {
     font-size: 12px;
   }
-  
+
   .cash1 {
     font-size: 12px;
   }
