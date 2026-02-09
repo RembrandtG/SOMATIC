@@ -521,11 +521,6 @@
     color: #e8a874;
   }
 
-  .krasnodar-title {
-    padding: 40px 10px 60px 10px;
-    gap: 5px;
-  }
-
   .words {
     color: #e8a874;
   }
@@ -831,10 +826,6 @@
 
   .scroll-somatics {
     width: 80%;
-  }
-
-  .krasnodar-underpage {
-    font-size: 14px;
   }
 
   .line {
