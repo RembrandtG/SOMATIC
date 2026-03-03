@@ -811,6 +811,14 @@
     width: 75%;
   }
 
+  .footer-links {
+    gap: 10px;
+  }
+
+  .hero__socials {
+    gap: 15px;
+  }
+
   .scroll-block-text {
     font-size: 8px;
   }
@@ -955,7 +963,7 @@
   }
 
   .footer-brand h3 {
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .footer-brand p {
