@@ -296,6 +296,32 @@
   padding: 150px 80px;
 }
 
+.restart::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70%;
+  z-index: 1;
+  background: #505445;
+  background: linear-gradient(360deg, rgba(80, 84, 69, 0) 60%, rgba(80, 84, 69, 1) 100%);
+  pointer-events: none;
+}
+
+.restart::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40%;
+  z-index: 1;
+  background: #505445;
+  background: linear-gradient(180deg, #50544500 60%, #505445 100%);
+  pointer-events: none;
+}
+
 .restart-text {
   color: #ffffff;
   font-family: 'Etude Noire', sans-serif;
