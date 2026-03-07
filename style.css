@@ -143,8 +143,8 @@ body {
 }
 
 .social--transform {
-  writing-mode: vertical-rl; /* текст сверху вниз */
-  text-orientation: mixed; /* ориентация символов */
+  writing-mode: vertical-rl; 
+  text-orientation: mixed; 
   transform: rotate(360deg);
 }
 
